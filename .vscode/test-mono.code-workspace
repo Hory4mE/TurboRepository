@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "..",
+    },
+    {
+      "name": "docs",
+      "path": "../apps/docs",
+    },
+    {
+      "name": "web",
+      "path": "../apps/web",
+    },
+    {
+      "name": "next",
+      "path": "../apps/nextjs_app",
+    },
+    {
+      "name": "api",
+      "path": "../apps/api"
+    },
+    {
+      "name": "package-shared",
+      "path": "../packages/shared"
+    }
+  ],
+}

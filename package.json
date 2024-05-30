@@ -1,9 +1,9 @@
 {
-  "name": "TurboRepo_train",
+  "name": "turborepo_train",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
+    "build": "turbo build --filter='!**/unused**'",
+    "dev": "turbo dev --filter=!unused",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
